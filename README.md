@@ -67,3 +67,27 @@ boston_df = pd.DataFrame(X, columns = feature_names)
 boston_df['target'] = y
 ```
 
+## Linear Regression
+
+In this section, we will cover:
+
+- Mathematical formulation of a regression problem.
+- Linear Regression with Scikit-learn.
+- Interpreting linear regression results.
+- Improving a regression model.
+
+A simple linear function takes the following equation:
+
+Y = mX + c
+
+where: m is the gradient (or slope)
+       c is the constant
+
+A linear equation with a several variables takes the following form:
+
+Y = m1X1 + m2X2 + m3X3 + ... + mnXn + c
+
+where: m1, m2, m3, ..., mn are the gradients (or slopes)
+       X1, X2, X2, ..., Xn are the variables
+       c is the constant
+
