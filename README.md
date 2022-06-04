@@ -37,4 +37,18 @@ The main areas of supervised learning are:
 - Regression: Good to analyse continuous data. For example, currency rates, marketing effects, and pricing.
 - Classification: Good to analyse discrete data. For example, image recognitiom, medical diagnostics, and whether a product will be bought.
 
+The Machine Learning Cycle takes the following flow:
+
+Formulate the problem -> Get data -> Format data -> Explore data -> Perform modelling -> Evaluate the model -> Analyse results -> Deploy model
+
+One of the most famous and important Machine Learning packages is called Scikit-learn (sklearn). Scikit-learn provides the following functions:
+
+- Regression
+- Classification
+- Clustering
+- Data preparation
+- Model evaluation
+
+**Note:** The website for Scikit-learn is: https://scikit-learn.org/stable/
+
 
