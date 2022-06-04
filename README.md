@@ -49,6 +49,21 @@ One of the most famous and important Machine Learning packages is called Scikit-
 - Data preparation
 - Model evaluation
 
-**Note:** The website for Scikit-learn is: https://scikit-learn.org/stable/
+**Note:** Other packages include TensorFlow, Keras, theano, PyTorch, and Microsoft Cognitive Toolkit. The website for Scikit-learn is: https://scikit-learn.org/stable/
 
+Let's take a look at a sample dataset from Scikit-learn:
+
+```
+from sklearn.datasets import load_boston
+boston_dataset = load_boston()
+X, y = boston_dataset['data'], boston_dataset['target']
+feature_names = boston_dateset['feature_names']
+```
+
+This dataset comes in Bunch type, which can be thought of as a dictionary (dict). We will create a datafrom fro this data:
+
+```
+boston_df = pd.DataFrame(X, columns = feature_names)
+boston_df['target'] = y
+```
 
