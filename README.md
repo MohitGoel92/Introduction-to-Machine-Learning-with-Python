@@ -1,4 +1,4 @@
-# Introduction to Machine Learning with Python
+# Introduction to Machine Learning with Python (PV)
 
 In this repository, we will learn about the new Machine Learning technologies and their implementations with Python. We will focus on applications and not mathematical derivations of Machine Learning algorithms.
 
